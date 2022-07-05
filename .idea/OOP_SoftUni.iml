@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/05_Inheritance/02_single_inheritance/project" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/06_Inheritance_exercises/02_Zoo/project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_Inheritance_exercises/03_players_and_monsters/project" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (SoftUni_OOP)" jdkType="Python SDK" />
