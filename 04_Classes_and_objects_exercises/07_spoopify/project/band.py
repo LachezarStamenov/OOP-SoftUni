@@ -22,9 +22,9 @@ class Band:
 
     def add_album(self, album):
         if album in self.albums:
-            return f"Band {self.name} already has {album.name} in their library."
+            return f"Band {self.name} already has {album.__name} in their library."
         self.albums.append(album)
-        return f"Band {self.name} has added their newest album {album.name}."
+        return f"Band {self.name} has added their newest album {album.__name}."
 
     def remove_album(self, album_name: str):
         for album in self.albums:

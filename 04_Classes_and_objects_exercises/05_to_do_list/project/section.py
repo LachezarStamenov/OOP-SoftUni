@@ -33,7 +33,7 @@ class Section:
     def complete_task(self, task_name: str):
         task = None
         for t in self.tasks:
-            if t.name == task_name:
+            if t.__name == task_name:
                 task = t
                 break
 

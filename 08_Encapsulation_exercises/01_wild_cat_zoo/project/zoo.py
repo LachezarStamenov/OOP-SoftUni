@@ -89,7 +89,7 @@ class Zoo:
 
     def fire_worker(self, worker_name: str):
         for worker in self.workers:
-            if worker.name == worker_name:
+            if worker.__name == worker_name:
                 self.workers.remove(worker)
                 return f"{worker_name} fired successfully"
         return f"There is no {worker_name} in the zoo"

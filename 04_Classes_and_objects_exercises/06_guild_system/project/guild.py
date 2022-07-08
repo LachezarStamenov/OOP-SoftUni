@@ -41,7 +41,7 @@ class Guild:
         try:
             player = None
             for p in self.players:
-                if p.name == player_name:
+                if p.__name == player_name:
                     player = p
                     break
 
