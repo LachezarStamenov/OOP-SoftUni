@@ -10,8 +10,8 @@ class Validator:
             raise ValueError(message)
 
     @staticmethod
-    def raise_if_year_under_1988(year, message):
-        if year < 1988:
+    def raise_if_year_under_1888(year, message):
+        if year < 1888:
             raise ValueError(message)
 
     @staticmethod

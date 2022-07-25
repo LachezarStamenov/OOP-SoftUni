@@ -1,5 +1,5 @@
-from core.validator import Validator
-from .movie import Movie
+from project.core.validator import Validator
+from project.movie_specification.movie import Movie
 
 
 class Fantasy(Movie):

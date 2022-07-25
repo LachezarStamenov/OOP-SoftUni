@@ -1,5 +1,5 @@
-from movie_specification.movie import Movie
-from core.validator import Validator
+from project.core.validator import Validator
+from project.movie_specification.movie import Movie
 
 
 class Thriller(Movie):

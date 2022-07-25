@@ -1,4 +1,4 @@
-from .core.validator import Validator
+from project.core.validator import Validator
 
 
 class User:

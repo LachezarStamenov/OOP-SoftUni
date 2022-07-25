@@ -1,5 +1,5 @@
 from .movie import Movie
-from core.validator import Validator
+from ..core.validator import Validator
 
 
 class Action(Movie):

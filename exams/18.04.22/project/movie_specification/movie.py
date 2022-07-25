@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from ..core.validator import Validator
+
+from project.core.validator import Validator
 
 
 class Movie(ABC):
@@ -25,7 +26,7 @@ class Movie(ABC):
 
     @year.setter
     def year(self, value):
-        Validator.raise_if_year_under_1988(value, "Movies weren't made before 1888!")
+        Validator.raise_if_year_under_1888(value, "Movies weren't made before 1888!")
         self.__year = value
 
     @property
