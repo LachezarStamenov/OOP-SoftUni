@@ -1,0 +1,1 @@
+Function 'func' was called. Result: 6
