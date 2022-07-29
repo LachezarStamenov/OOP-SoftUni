@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/05_Inheritance/02_single_inheritance/project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06_Inheritance_exercises/04_Need_for_speed/project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exams/18.04.22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18_Unit_testing" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (SoftUni_OOP)" jdkType="Python SDK" />
