@@ -16,7 +16,7 @@ class Controller:
             self.supplies.append(supply)
 
     def __take_last_supply(self, supply_type: str):
-        for i in range(len(self.supplies) - 1, 0, -1):
+        for i in range(len(self.supplies) - 1, -1, -1):
             if type(self.supplies[i]).__name__ == supply_type:
                 return self.supplies.pop(i)
         if supply_type == "Food":
