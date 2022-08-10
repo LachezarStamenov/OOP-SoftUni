@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/exams/11.12.21" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/20_Exam_Preparation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exams/10.04.22/uni_tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_Workshop" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (SoftUni_OOP)" jdkType="Python SDK" />

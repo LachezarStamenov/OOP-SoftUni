@@ -63,6 +63,14 @@ class HashTable:
         except KeyError:
             self.add(key, value)
 
+    def items(self):
+        result = []
+        for slot in self.data:
+            if slot is None:
+                continue
+            result.extend(slot)
+        return result
+
     def remove(self, key):
         idx = self.calc_idx(key)
         idx_elements = self.data[idx]
@@ -99,3 +107,4 @@ print(table)
 print(table.get("name"))
 print(table["age"])
 print(len(table))
+print(table.items())
