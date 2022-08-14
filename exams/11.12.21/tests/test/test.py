@@ -13,9 +13,9 @@ class TeamTests(TestCase):
         self.assertEqual({}, team.members)
 
     def test_name_setter_raises_when_name_contains_non_alpha_letters(self):
-        with self.assertRaises(ValueError) as contex:
+        with self.assertRaises(ValueError) as context:
             team = Team('123asdASD.,$@!$%?!')
-        self.assertEqual('Team Name can contain only letters!', str(contex.exception))
+        self.assertEqual('Team Name can contain only letters!', str(context.exception))
 
     def test_add_member_add_only_new_players_to_the_team(self):
         self.team.members['ivan'] = 18

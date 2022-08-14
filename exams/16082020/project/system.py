@@ -28,7 +28,7 @@ class System:
             System._software.append(software)
 
         except IndexError:
-            return "Software cannot be installed"
+            return "Hardware does not exist"
         except Exception as ex:
             return str(ex)
 
@@ -41,7 +41,7 @@ class System:
             System._software.append(software)
 
         except IndexError:
-            return "Software cannot be installed"
+            return "Hardware does not exist"
         except Exception as ex:
             return str(ex)
 
@@ -51,6 +51,7 @@ class System:
             hardware = [h for h in System._hardware if h.name == hardware_name][0]
             software = [s for s in System._software if s.name == software_name][0]
             hardware.uninstall(software)
+            System._software.remove(software)
         except IndexError:
             return "Some of the components do not exist"
 

@@ -11,7 +11,7 @@ class Hardware:
 
     def install(self, software: Software):
         if software.capacity_consumption <= self.available_capacity and \
-                software.memory_consumption < self.available_memory:
+                software.memory_consumption <= self.available_memory:
             self.software_components.append(software)
         else:
             raise Exception("Software cannot be installed")

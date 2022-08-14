@@ -26,7 +26,6 @@ class Controller:
             raise Exception(f'Driver {driver_name} is already created!')
         driver = Driver(driver_name)
         self.drivers.append(driver)
-
         return f"Driver {driver.name} is created."
 
     def create_race(self, race_name: str):
